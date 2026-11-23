@@ -1,0 +1,1174 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 2,
+  "updatedAt": "2026-11-23T00:00:00Z",
+  "game": {
+    "id": "gta6",
+    "title": "Grand Theft Auto VI"
+  },
+  "platforms": [
+    {
+      "id": "ps5",
+      "title": "PlayStation 5",
+      "entry": [
+        {
+          "action": "press",
+          "buttons": [
+            "dpad_up"
+          ],
+          "hintKey": "open_phone"
+        },
+        {
+          "action": "hold",
+          "buttons": [
+            "l1",
+            "r1"
+          ],
+          "hintKey": "keep_holding"
+        },
+        {
+          "action": "enterCode"
+        }
+      ]
+    },
+    {
+      "id": "xbox",
+      "title": "Xbox Series X|S",
+      "entry": [
+        {
+          "action": "press",
+          "buttons": [
+            "dpad_up"
+          ],
+          "hintKey": "open_phone"
+        },
+        {
+          "action": "hold",
+          "buttons": [
+            "lb",
+            "rb"
+          ],
+          "hintKey": "keep_holding"
+        },
+        {
+          "action": "enterCode"
+        }
+      ]
+    }
+  ],
+  "rules": [
+    "story_required",
+    "challenge_unlock",
+    "disables_progress"
+  ],
+  "categories": [
+    {
+      "id": "player",
+      "icon": "person.fill",
+      "order": 10
+    },
+    {
+      "id": "combat",
+      "icon": "scope",
+      "order": 20
+    },
+    {
+      "id": "environment",
+      "icon": "cloud.sun.fill",
+      "order": 30
+    },
+    {
+      "id": "vehicle",
+      "icon": "car.fill",
+      "order": 40
+    },
+    {
+      "id": "filter",
+      "icon": "camera.filters",
+      "order": 50
+    }
+  ],
+  "cheats": [
+    {
+      "id": "money_250k",
+      "categoryId": "player",
+      "name": "$250,000",
+      "unlock": {
+        "type": "story"
+      },
+      "code": [
+        "up",
+        "right",
+        "down",
+        "left",
+        "up",
+        "left",
+        "down",
+        "right"
+      ],
+      "codeStatus": "verified",
+      "access": "free",
+      "codeUpdatedAt": "2026-11-19",
+      "addedAt": "2026-11-19",
+      "order": 10
+    },
+    {
+      "id": "drunk",
+      "categoryId": "player",
+      "name": "Drunk",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": [
+        "up",
+        "left",
+        "right",
+        "up",
+        "up",
+        "left",
+        "right",
+        "up",
+        "left",
+        "right"
+      ],
+      "codeStatus": "unverified",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 20,
+      "codeUpdatedAt": "2026-11-23"
+    },
+    {
+      "id": "raise_heat",
+      "categoryId": "player",
+      "name": "Raise Heat Level",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": [
+        "left",
+        "down",
+        "right",
+        "down",
+        "up",
+        "down",
+        "up"
+      ],
+      "codeStatus": "verified",
+      "access": "premium",
+      "codeUpdatedAt": "2026-11-19",
+      "addedAt": "2026-11-19",
+      "order": 30
+    },
+    {
+      "id": "raise_wanted",
+      "categoryId": "player",
+      "name": "Raise Wanted Level",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": [
+        "left",
+        "down",
+        "right",
+        "down",
+        "up",
+        "right",
+        "up"
+      ],
+      "codeStatus": "unverified",
+      "access": "premium",
+      "codeUpdatedAt": "2026-11-19",
+      "notes": [
+        "sources_conflict"
+      ],
+      "addedAt": "2026-11-19",
+      "order": 40
+    },
+    {
+      "id": "unlimited_focus",
+      "categoryId": "player",
+      "name": "Unlimited Focus",
+      "unlock": {
+        "type": "story"
+      },
+      "code": [
+        "down",
+        "up",
+        "up",
+        "down",
+        "up",
+        "down",
+        "up",
+        "down",
+        "up",
+        "right"
+      ],
+      "codeStatus": "verified",
+      "access": "free",
+      "codeUpdatedAt": "2026-11-19",
+      "addedAt": "2026-11-19",
+      "order": 50
+    },
+    {
+      "id": "no_fall_damage",
+      "categoryId": "player",
+      "name": "No Fall Damage",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 60
+    },
+    {
+      "id": "parachute",
+      "categoryId": "player",
+      "name": "Parachute",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 70
+    },
+    {
+      "id": "body_armor",
+      "categoryId": "player",
+      "name": "Body Armor",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": [
+        "down",
+        "up",
+        "left",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "down",
+        "down"
+      ],
+      "codeStatus": "verified",
+      "access": "premium",
+      "codeUpdatedAt": "2026-11-19",
+      "addedAt": "2026-11-19",
+      "order": 80
+    },
+    {
+      "id": "repair_vehicle",
+      "categoryId": "player",
+      "name": "Repair Vehicle",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 90
+    },
+    {
+      "id": "unlimited_nitrous",
+      "categoryId": "player",
+      "name": "Unlimited Nitrous",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 100
+    },
+    {
+      "id": "max_ammo",
+      "categoryId": "combat",
+      "name": "Max Ammo",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": [
+        "down",
+        "up",
+        "right",
+        "down",
+        "left",
+        "left",
+        "up",
+        "up",
+        "down",
+        "left"
+      ],
+      "codeStatus": "verified",
+      "access": "premium",
+      "codeUpdatedAt": "2026-11-19",
+      "addedAt": "2026-11-19",
+      "order": 110
+    },
+    {
+      "id": "infinite_ammo",
+      "categoryId": "combat",
+      "name": "Infinite Ammo",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": [
+        "down",
+        "up",
+        "right",
+        "down",
+        "left",
+        "left",
+        "up",
+        "down",
+        "down",
+        "down"
+      ],
+      "codeStatus": "verified",
+      "access": "premium",
+      "codeUpdatedAt": "2026-11-19",
+      "addedAt": "2026-11-19",
+      "order": 120
+    },
+    {
+      "id": "no_reload",
+      "categoryId": "combat",
+      "name": "No Reload",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": [
+        "down",
+        "up",
+        "right",
+        "down",
+        "left",
+        "left",
+        "up",
+        "down",
+        "down",
+        "up"
+      ],
+      "codeStatus": "verified",
+      "access": "premium",
+      "codeUpdatedAt": "2026-11-19",
+      "addedAt": "2026-11-19",
+      "order": 130
+    },
+    {
+      "id": "explosive_weapons",
+      "categoryId": "combat",
+      "name": "All Explosive Weapons",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 140
+    },
+    {
+      "id": "incendiary_ammo",
+      "categoryId": "combat",
+      "name": "Incendiary Ammo",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 150
+    },
+    {
+      "id": "exploding_bottles",
+      "categoryId": "combat",
+      "name": "Exploding Bottles",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 160
+    },
+    {
+      "id": "explosive_shotgun",
+      "categoryId": "combat",
+      "name": "Explosive Shotgun",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 170
+    },
+    {
+      "id": "hauners_hat",
+      "categoryId": "combat",
+      "name": "Hauners H-AT",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 180
+    },
+    {
+      "id": "attack_force",
+      "categoryId": "combat",
+      "name": "Attack Force",
+      "unlock": {
+        "type": "story"
+      },
+      "code": [
+        "down",
+        "up",
+        "left",
+        "left",
+        "right",
+        "down",
+        "down",
+        "up",
+        "down"
+      ],
+      "codeStatus": "verified",
+      "access": "free",
+      "codeUpdatedAt": "2026-11-19",
+      "addedAt": "2026-11-19",
+      "order": 190
+    },
+    {
+      "id": "exploding_balls",
+      "categoryId": "combat",
+      "name": "Exploding Balls",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": [
+        "down",
+        "up",
+        "left",
+        "left",
+        "right",
+        "down",
+        "down",
+        "up",
+        "right"
+      ],
+      "codeStatus": "verified",
+      "access": "premium",
+      "codeUpdatedAt": "2026-11-19",
+      "addedAt": "2026-11-19",
+      "order": 200
+    },
+    {
+      "id": "vehicle_force",
+      "categoryId": "combat",
+      "name": "Vehicle Force",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": [
+        "down",
+        "up",
+        "left",
+        "left",
+        "right",
+        "down",
+        "left",
+        "up",
+        "down"
+      ],
+      "codeStatus": "verified",
+      "access": "premium",
+      "codeUpdatedAt": "2026-11-19",
+      "addedAt": "2026-11-19",
+      "order": 210
+    },
+    {
+      "id": "move_time",
+      "categoryId": "environment",
+      "name": "Move Time Forward",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 220
+    },
+    {
+      "id": "pause_time",
+      "categoryId": "environment",
+      "name": "Pause Time of Day",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 230
+    },
+    {
+      "id": "cycle_weather",
+      "categoryId": "environment",
+      "name": "Cycle Weather",
+      "unlock": {
+        "type": "story"
+      },
+      "code": [
+        "down",
+        "right",
+        "up",
+        "down",
+        "right",
+        "up",
+        "right"
+      ],
+      "codeStatus": "unverified",
+      "access": "free",
+      "codeUpdatedAt": "2026-11-19",
+      "notes": [
+        "may_require_full_map"
+      ],
+      "addedAt": "2026-11-19",
+      "order": 240
+    },
+    {
+      "id": "speeder_700gt",
+      "categoryId": "vehicle",
+      "name": "Speeder 700 GT",
+      "effectKey": "spawn_vehicle",
+      "unlock": {
+        "type": "challengeGroup",
+        "group": "combat",
+        "count": 5
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 250
+    },
+    {
+      "id": "bravado_banshee",
+      "categoryId": "vehicle",
+      "name": "Bravado Banshee",
+      "effectKey": "spawn_vehicle",
+      "unlock": {
+        "type": "challengeGroup",
+        "group": "combat"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 260
+    },
+    {
+      "id": "maibatsu_sanchez",
+      "categoryId": "vehicle",
+      "name": "Maibatsu Sanchez",
+      "effectKey": "spawn_vehicle",
+      "unlock": {
+        "type": "challengeGroup",
+        "group": "crime",
+        "count": 5
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 270
+    },
+    {
+      "id": "zombie_bobber",
+      "categoryId": "vehicle",
+      "name": "Western Zombie Bobber",
+      "effectKey": "spawn_vehicle",
+      "unlock": {
+        "type": "challengeGroup",
+        "group": "crime"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 280
+    },
+    {
+      "id": "sea_sparrow",
+      "categoryId": "vehicle",
+      "name": "Nagasaki Sea Sparrow",
+      "effectKey": "spawn_vehicle",
+      "unlock": {
+        "type": "challengeGroup",
+        "group": "exploration",
+        "count": 5
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 290
+    },
+    {
+      "id": "carbon_rs",
+      "categoryId": "vehicle",
+      "name": "Nagasaki Carbon RS",
+      "effectKey": "spawn_vehicle",
+      "unlock": {
+        "type": "challengeGroup",
+        "group": "exploration"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 300
+    },
+    {
+      "id": "tuff_bmx",
+      "categoryId": "vehicle",
+      "name": "Tuff BMX",
+      "effectKey": "spawn_vehicle",
+      "unlock": {
+        "type": "challengeGroup",
+        "group": "fitness",
+        "count": 5
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 310
+    },
+    {
+      "id": "dominator_65",
+      "categoryId": "vehicle",
+      "name": "'65 Vapid Dominator",
+      "effectKey": "spawn_vehicle",
+      "unlock": {
+        "type": "challengeGroup",
+        "group": "fitness"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 320
+    },
+    {
+      "id": "boomazoom",
+      "categoryId": "vehicle",
+      "name": "Maibatsu Boomazoom",
+      "effectKey": "spawn_vehicle",
+      "unlock": {
+        "type": "challengeGroup",
+        "group": "shopping",
+        "count": 5
+      },
+      "code": [
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "left",
+        "up",
+        "left"
+      ],
+      "codeStatus": "verified",
+      "access": "premium",
+      "codeUpdatedAt": "2026-11-19",
+      "addedAt": "2026-11-19",
+      "order": 330
+    },
+    {
+      "id": "truffade_thrax",
+      "categoryId": "vehicle",
+      "name": "Truffade Thrax",
+      "effectKey": "spawn_vehicle",
+      "unlock": {
+        "type": "challengeGroup",
+        "group": "shopping"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 340
+    },
+    {
+      "id": "stanier_taxi",
+      "categoryId": "vehicle",
+      "name": "Vapid Stanier G2 Taxi",
+      "effectKey": "spawn_vehicle",
+      "unlock": {
+        "type": "challengeGroup",
+        "group": "sports",
+        "count": 5
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 350
+    },
+    {
+      "id": "brimstone_golfer",
+      "categoryId": "vehicle",
+      "name": "Brimstone Golfer",
+      "effectKey": "spawn_vehicle",
+      "unlock": {
+        "type": "challengeGroup",
+        "group": "sports"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 360
+    },
+    {
+      "id": "airboat_09",
+      "categoryId": "vehicle",
+      "name": "Airboat 09",
+      "effectKey": "spawn_vehicle",
+      "unlock": {
+        "type": "challengeGroup",
+        "group": "survival",
+        "count": 5
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 370
+    },
+    {
+      "id": "rhino_tank",
+      "categoryId": "vehicle",
+      "name": "Hauners Rhino Tank",
+      "effectKey": "spawn_vehicle",
+      "unlock": {
+        "type": "challengeGroup",
+        "group": "survival"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 380
+    },
+    {
+      "id": "lapwing_mallard",
+      "categoryId": "vehicle",
+      "name": "Lapwing Mallard",
+      "effectKey": "spawn_vehicle",
+      "unlock": {
+        "type": "challengeGroup",
+        "group": "vehicles",
+        "count": 5
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 390
+    },
+    {
+      "id": "progen_emerus",
+      "categoryId": "vehicle",
+      "name": "Progen Emerus",
+      "effectKey": "spawn_vehicle",
+      "unlock": {
+        "type": "challengeGroup",
+        "group": "vehicles"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 400
+    },
+    {
+      "id": "p996_lazer",
+      "categoryId": "vehicle",
+      "name": "Hauners P-996 Lazer",
+      "effectKey": "spawn_vehicle",
+      "unlock": {
+        "type": "allChallenges"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 410
+    },
+    {
+      "id": "ambulance",
+      "categoryId": "vehicle",
+      "name": "Interstate Ambulance",
+      "effectKey": "spawn_vehicle",
+      "unlock": {
+        "type": "progressMenu"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 420
+    },
+    {
+      "id": "mtl_pumper",
+      "categoryId": "vehicle",
+      "name": "MTL Pumper",
+      "effectKey": "spawn_vehicle",
+      "unlock": {
+        "type": "progressMenu"
+      },
+      "code": [
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "right",
+        "right",
+        "up"
+      ],
+      "codeStatus": "verified",
+      "access": "free",
+      "codeUpdatedAt": "2026-11-19",
+      "addedAt": "2026-11-19",
+      "order": 430
+    },
+    {
+      "id": "bulldozer",
+      "categoryId": "vehicle",
+      "name": "HVY Bulldozer",
+      "effectKey": "spawn_vehicle",
+      "unlock": {
+        "type": "progressMenu"
+      },
+      "code": [
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "right",
+        "right",
+        "down"
+      ],
+      "codeStatus": "verified",
+      "access": "premium",
+      "codeUpdatedAt": "2026-11-19",
+      "addedAt": "2026-11-19",
+      "order": 440
+    },
+    {
+      "id": "inflatable_flamingo",
+      "categoryId": "vehicle",
+      "name": "Inflatable Flamingo",
+      "effectKey": "spawn_vehicle",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 450
+    },
+    {
+      "id": "golden_hour",
+      "categoryId": "filter",
+      "name": "Golden Hour",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 460
+    },
+    {
+      "id": "powdered_sugar",
+      "categoryId": "filter",
+      "name": "Powdered Sugar",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 470
+    },
+    {
+      "id": "pinhole",
+      "categoryId": "filter",
+      "name": "Pinhole",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 480
+    },
+    {
+      "id": "neon_jungle",
+      "categoryId": "filter",
+      "name": "Neon Jungle",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 490
+    },
+    {
+      "id": "yesteryear",
+      "categoryId": "filter",
+      "name": "Yesteryear",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 500
+    },
+    {
+      "id": "cataclysm",
+      "categoryId": "filter",
+      "name": "Cataclysm",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": [
+        "down",
+        "down",
+        "up",
+        "right",
+        "right",
+        "up",
+        "left",
+        "left",
+        "right",
+        "right"
+      ],
+      "codeStatus": "verified",
+      "access": "premium",
+      "codeUpdatedAt": "2026-11-19",
+      "addedAt": "2026-11-19",
+      "order": 510
+    },
+    {
+      "id": "videotape",
+      "categoryId": "filter",
+      "name": "Videotape",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 520
+    },
+    {
+      "id": "dark_mirror",
+      "categoryId": "filter",
+      "name": "Dark Mirror",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 530
+    },
+    {
+      "id": "migraine",
+      "categoryId": "filter",
+      "name": "Migraine",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 540
+    },
+    {
+      "id": "dollhouse",
+      "categoryId": "filter",
+      "name": "Dollhouse",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": [
+        "down",
+        "down",
+        "up",
+        "right",
+        "right",
+        "up",
+        "left",
+        "left",
+        "down",
+        "right"
+      ],
+      "codeStatus": "verified",
+      "access": "free",
+      "codeUpdatedAt": "2026-11-19",
+      "addedAt": "2026-11-19",
+      "order": 550
+    },
+    {
+      "id": "bubblegum",
+      "categoryId": "filter",
+      "name": "Bubblegum",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 560
+    },
+    {
+      "id": "fast_forward",
+      "categoryId": "filter",
+      "name": "Fast Forward",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 570
+    },
+    {
+      "id": "fisheye",
+      "categoryId": "filter",
+      "name": "Fisheye",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 580
+    },
+    {
+      "id": "faded_glory",
+      "categoryId": "filter",
+      "name": "Faded Glory",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": [
+        "down",
+        "down",
+        "up",
+        "right",
+        "right",
+        "up",
+        "left",
+        "left",
+        "left",
+        "right"
+      ],
+      "codeStatus": "verified",
+      "access": "premium",
+      "codeUpdatedAt": "2026-11-19",
+      "addedAt": "2026-11-19",
+      "order": 590
+    },
+    {
+      "id": "pixel_art",
+      "categoryId": "filter",
+      "name": "Pixel Art",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 600
+    },
+    {
+      "id": "hellscape",
+      "categoryId": "filter",
+      "name": "Hellscape",
+      "unlock": {
+        "type": "custom"
+      },
+      "code": null,
+      "codeStatus": "unknown",
+      "access": "premium",
+      "addedAt": "2026-11-19",
+      "order": 610
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.keengamer.com/articles/guides/gta-6-all-cheat-codes-for-ps5-and-xbox-and-how-to-unlock-them/"
+    },
+    {
+      "url": "https://screenrant.com/gta-6-cheats-ps5-xbox/"
+    },
+    {
+      "url": "https://www.redbull.com/int-en/gta-6-cheat-codes"
+    },
+    {
+      "url": "https://www.shanethegamer.com/news/gta-6-cheat-codes-how-to-unlock/"
+    },
+    {
+      "url": "https://thetechhacker.com/2026/11/18/gta-6-cheat-codes-ps5-xbox/"
+    },
+    {
+      "url": "https://www.purexbox.com/guides/gta-6-cheat-codes-all-reveals-so-far-and-how-to-unlock-them-on-xbox"
+    },
+    {
+      "url": "https://www.trueachievements.com/news/gta-6-cheat-codes"
+    },
+    {
+      "url": "https://www.theclick.gg/gta-6-drunk-cheat/"
+    },
+    {
+      "url": "https://sportskeeda.com/esports/gta-6-cheats-ps5-all-cheat-codes"
+    }
+  ]
+}
